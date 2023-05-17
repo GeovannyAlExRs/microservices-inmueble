@@ -10,8 +10,6 @@ import java.util.List;
 
 @Service
 public class InmuebleServiceImpl implements InmuebleService {
-
-
     private InmuebleRepository inmuebleRepository;
 
     public InmuebleServiceImpl(InmuebleRepository inmuebleRepository) {
