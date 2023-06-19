@@ -61,14 +61,14 @@ public class SecutiryConfig {
                 .build();
     }
 
-    /*@Bean
-    public WebMvcConfigurer corsConfigurer()
-    {
+    // Config CORS: to access to all endPoints from any origin
+    @Bean
+    public WebMvcConfigurer webMvcConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**").allowedOrigins("*");
             }
         };
-    }*/
+    }
 }
