@@ -20,7 +20,7 @@ public class Inmueble {
     @Column(name = "address", length = 500, nullable = false)
     private String address;
 
-    @Column(name = "photo", length = 1024, nullable = true)
+    @Column(name = "photo", length = 1024, nullable = false)
     private String photo;
 
     @Column(name = "price", nullable = false)
